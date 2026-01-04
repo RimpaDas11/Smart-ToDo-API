@@ -1,0 +1,35 @@
+{
+  "info": {
+    "name": "Smart ToDo API"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/auth/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/auth/login"
+      }
+    },
+    {
+      "name": "Create Task",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/tasks"
+      }
+    },
+    {
+      "name": "Get Tasks",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/tasks"
+      }
+    }
+  ]
+}
